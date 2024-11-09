@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends "menu.html" %}
+<html lang="en">
+       {% block page-name %}
+    <h1>Игры</h1>
+{% endblock %}
+
+        {%block menu%}
+            {{block.super}}
+        {%endblock%}
+        {%block content%}
+            <ul>
+            {%for game in mydict%}
+                <li><p>{{game.title}} | {{game.description}}. Стоимость:{{game.cost}} <button>Купить</button></p></li>
+            {%endfor%}
+            </ul>
+            <button><a href="/main_page">Вернуться обратно</a></button>
+        {%endblock%}
+</html>

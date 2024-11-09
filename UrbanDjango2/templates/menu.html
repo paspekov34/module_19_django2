@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        {% block page-name %}
+        {% endblock %}
+    </header>
+    <nav>
+        {% block menu %}
+        <p><a href="http://127.0.0.1:8000/main_page">Главная</a></p>
+        <p><a href="http://127.0.0.1:8000/main_page/shop">Магазин</a></p>
+        <p><a href="http://127.0.0.1:8000/main_page/basket">Корзина</a></p>
+        <p><a href="http://127.0.0.1:8000/main_page/registration_page">Регистрация</a></p>
+        {% endblock %}
+    </nav>
+    <main>
+        {% block content %}
+
+        {% endblock %}
+    </main>
+
+</body>
+</html>
