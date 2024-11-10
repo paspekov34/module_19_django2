@@ -1,0 +1,82 @@
+[
+    {
+        "age_limited": 1,
+        "cost": 25,
+        "description": "Новое описание",
+        "id": 1,
+        "size": 12,
+        "title": "Новая игра #изменил имя "
+    },
+    {
+        "age_limited": 1,
+        "cost": 89.99,
+        "description": "text",
+        "id": 2,
+        "size": 120,
+        "title": "God of War"
+    },
+    {
+        "age_limited": 0,
+        "cost": 59.99,
+        "description": "text",
+        "id": 3,
+        "size": 25,
+        "title": "Super Mario"
+    },
+    {
+        "age_limited": 1,
+        "cost": 134.33,
+        "description": "text",
+        "id": 4,
+        "size": 200.724,
+        "title": "Wither 2"
+    },
+    {
+        "age_limited": 1,
+        "cost": 0.12,
+        "description": "text",
+        "id": 5,
+        "size": 0.033,
+        "title": "Stalker 2"
+    },
+    {
+        "age_limited": 1,
+        "cost": 23.45,
+        "description": "text",
+        "id": 6,
+        "size": 1000.56,
+        "title": "Doom"
+    },
+    {
+        "age_limited": 0,
+        "cost": 122.34,
+        "description": "text",
+        "id": 7,
+        "size": 113.56,
+        "title": "Rage 2"
+    },
+    {
+        "age_limited": 1,
+        "cost": 345.56,
+        "description": "text",
+        "id": 8,
+        "size": 1234.56,
+        "title": "Battlefield 5"
+    },
+    {
+        "age_limited": 1,
+        "cost": 31,
+        "description": "text",
+        "id": 9,
+        "size": 46.2,
+        "title": "Cyberpunk 2077"
+    },
+    {
+        "age_limited": 0,
+        "cost": 5,
+        "description": "Old Game",
+        "id": 10,
+        "size": 0.4,
+        "title": "Super Sonic"
+    }
+]
